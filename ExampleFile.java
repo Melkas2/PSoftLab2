@@ -1,6 +1,6 @@
-public interface Connectable {
-	public void connect() throws IOException;
-	public void send(String message);	
-	public String receive();
-	public int getPort();
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
 }
+
